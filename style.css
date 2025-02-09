@@ -179,7 +179,13 @@ img {
 
 @media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 15px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .column {
+    width: 80px;
   }
 }
 
