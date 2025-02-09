@@ -186,7 +186,9 @@ img {
 
 .column {
   float: left;
-  width: 175px;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
 }
 
 /* Clear floats after the columns */
