@@ -177,21 +177,16 @@ img {
 
 /* 3 collums start here */
 
+
 @media screen and (max-width: 600px) {
   .column {
-    width: 15px;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .column {
-    width: 80px;
+    width: 100%;
   }
 }
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 20%;
 }
 
 /* Clear floats after the columns */
