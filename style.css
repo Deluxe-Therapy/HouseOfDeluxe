@@ -326,3 +326,10 @@ td:nth-child(odd), th:nth-child(odd) {
   
 }
 /* end */
+
+.tame {
+  width: 75%
+  border: hidden;
+  margin: 0;
+
+}
